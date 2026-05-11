@@ -78,8 +78,15 @@ export function ContactSection() {
                   <MapPin className="h-3 w-3 text-foreground/60" />
                   <span className="font-mono text-xs text-foreground/60">Локация</span>
                 </div>
-                <p className="text-base text-foreground md:text-2xl">ГПОУ ТКСиОТ</p>
-                <p className="mt-1 font-mono text-xs text-foreground/60">г. Тула, проспект Ленина, 43</p>
+                <a
+                  href="https://maps.google.com/?q=Тула,+проспект+Ленина,+43"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group/map"
+                >
+                  <p className="text-base text-foreground transition-colors group-hover/map:text-foreground/70 md:text-2xl">ГПОУ ТКСиОТ</p>
+                  <p className="mt-1 font-mono text-xs text-foreground/60 transition-colors group-hover/map:text-foreground/90">г. Тула, проспект Ленина, 43 ↗</p>
+                </a>
               </div>
 
               <div
