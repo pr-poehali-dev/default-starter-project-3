@@ -220,7 +220,7 @@ export default function Index() {
           className="flex items-center gap-2 transition-transform hover:scale-105"
         >
           <div className="flex h-10 items-center justify-center rounded-lg bg-foreground/15 px-3 backdrop-blur-md transition-all duration-300 hover:scale-110 hover:bg-foreground/25">
-            <span className="font-mono text-sm font-bold text-foreground">09.02.07</span>
+            <span className="font-sans text-sm font-bold text-foreground">09.02.07</span>
           </div>
         </button>
 
