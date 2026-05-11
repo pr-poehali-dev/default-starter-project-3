@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Дисциплины
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что вы изучите за 3 года 10 месяцев</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Программирование",
+              description: "Python, Java, C# — от основ до объектно-ориентированного подхода и паттернов проектирования",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Базы данных",
+              description: "Проектирование, администрирование и оптимизация реляционных и NoSQL баз данных",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Веб-технологии",
+              description: "HTML, CSS, JavaScript, современные фреймворки для создания полноценных веб-приложений",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Информационные системы",
+              description: "Анализ, проектирование и внедрение корпоративных информационных систем",
               direction: "bottom",
             },
           ].map((service, i) => (

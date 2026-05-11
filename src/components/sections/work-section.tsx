@@ -15,33 +15,40 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Проекты
+            Направления
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Карьерные треки выпускников</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "ТехноСтарт",
-              category: "Корпоративный портал",
-              year: "2024",
+              title: "Веб-разработчик",
+              category: "Frontend / Backend / Fullstack",
+              year: "Востребован",
               direction: "left",
             },
             {
               number: "02",
-              title: "АльфаТрейд",
-              category: "Финтех платформа",
-              year: "2024",
+              title: "Разработчик мобильных приложений",
+              category: "Android / iOS / Cross-platform",
+              year: "Высокий спрос",
               direction: "right",
             },
             {
               number: "03",
-              title: "МедиаПульс",
-              category: "Медиа сервис",
-              year: "2023",
+              title: "Администратор баз данных",
+              category: "SQL / NoSQL / Проектирование",
+              year: "Стабильно",
               direction: "left",
+            },
+            {
+              number: "04",
+              title: "Системный аналитик",
+              category: "Бизнес-анализ / Архитектура ИС",
+              year: "Перспективно",
+              direction: "right",
             },
           ].map((project, i) => (
             <ProjectCard key={i} project={project} index={i} isVisible={isVisible} />
